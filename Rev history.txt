@@ -1,0 +1,1416 @@
+Tag 3.3.109
+===========
+2022-06-14 - PRI:	* Fixed error writing template table
+2022-06-14 - PRI:	* Always use x86 version of MapTool
+
+Tag 3.3.108
+===========
+2022-04-06 - PRI:	* Fixed error when writing sound data with too large sound ids
+2022-04-06 - PRI:	* Fixed error when creating template table in ICU600 out file
+2022-03-28 - PRI:	* Fixed wrong paths in default databases
+2022-03-27 - PRI:	* Simulator can handle extra texts in Brazil mode
+2022-03-27 - PRI:	* ZEdit files can be imported in Brazil mode
+2022-03-27 - PRI:	* Add configuration for Multilinhas signs if missing
+
+Tag 3.3.107
+===========
+2022-02-10 - PRI:	* Fixed error when creating template table in ICU600 out file
+2022-03-08 - PRI:	* New, modern, map tool that can handle the latest Google map api features
+
+Tag 3.3.106
+===========
+2022-02-28 - PRI:	* Fixed error in map tool that didn't show any routes
+
+Tag 3.3.105
+===========
+2022-02-06 - PRI:	* Fixed error when creating template table in ICU600 out file
+2022-02-06 - PRI:	* Fixed error when writing new line character in out file
+
+Tag 3.3.104
+===========
+2022-01-23 - PRI:	* Import CSV with fixed style and templates. Start in command line mode.
+
+Tag 3.3.103
+===========
+2021-12-17 - PRI:	* Display warning if sign data is too large in outfile
+2021-12-17 - PRI:	* Make it possible to only display a specified number of voice file errors
+
+Tag 3.3.102
+===========
+2021-12-13 - PRI:	* Fixed error when writing template route in outfile
+
+Tag 3.3.101
+===========
+2021-12-07 - PRI:	* Optimize outfile creation when using large signs
+2021-12-07 - PRI:	* Changed import functionality
+
+Tag 3.3.100
+===========
+2021-09-22 - PRI:	* Write more empty characters in template route
+2021-09-22 - PRI:	* Write regress offset in outfile
+
+Tag 3.3.99
+===========
+2021-07-02 - PRI:	* Add three test voice files to sound file
+2021-06-23 - PRI:	* Fixed bug about comma sign in ICU menu file
+
+Tag 3.3.98
+===========
+2021-06-04 - PRI:	* Make it possible to select ranger when using go/regress.
+
+Tag 3.3.97
+===========
+2021-05-31 - PRI:	* Fixed error in installer that caused errors during installation
+2021-05-05 - PRI:	* More voice tags to template route
+2021-04-08 - PRI:	* Copyright year updated to 2021
+
+Tag 3.3.96
+===========
+2021-04-08 - PRI:	* Fixed error writing sound file for template route
+2021-04-08 - PRI:	* Possible to ignore all inner signs, not only empty
+2021-04-08 - PRI:	* Countdown sound in outfile
+
+Tag 3.3.95
+===========
+2021-03-31 - PRI:	* Template route can handle four stops and template's default text
+2021-02-03 - PRI:	* Create route number if not existing when importing GTFS
+
+Tag 3.3.94
+===========
+2020-08-20 - PRI:	* Error when changing destination on a stop
+2020-08-20 - PRI:	* Add support for importing color data
+2020-08-20 - PRI:	* Add support for large ICU400 outfiles
+2020-08-11 - PRI:	* Graphic objects not copied and pasted correctly
+2020-08-07 - PRI:	* Monochrome images not 1-bit format
+2020-08-06 - PRI:	* New sign property that makes it possible to create signs containing large graphics
+
+Tag 3.3.93
+===========
+2020-07-16 - PRI:	* Euromaint adaptations
+
+Tag 3.3.92
+===========
+2020-07-03 - PRI:	* Euromaint adaptations
+
+Tag 3.3.91
+===========
+2020-06-11 - PRI:	* New data tag available seats (AS)
+2020-06-01 - PRI:	* Sort routes in out file
+
+Tag 3.3.90
+===========
+2020-05-20 - PRI:	* Outlined font not correct displayed for some characters
+
+Tag 3.3.89
+===========
+2020-04-29 - PRI:	* Handle color signs correctly when generating bitmaps
+2020-04-29 - PRI:	* Digital input and output in CAN messages
+
+Tag 3.3.88
+===========
+2020-04-27 - PRI:	* Digital input and output in CAN messages
+
+Tag 3.3.87
+===========
+2020-04-23 - PRI:	* Digital input and output in CAN messages
+2020-03-17 - PRI:	* Select routes and change default template
+2020-03-16 - PRI:	* Fixed some missing texts that should be translated
+2020-03-16 - PRI:	* Export to bitmap should create monochrome images
+2020-02-26 - PRI:	* Updated fonts
+
+Tag 3.3.86
+===========
+2020-02-25 - PRI:	* Error open file dialog in database handler dialog
+2020-02-25 - PRI:	* Copyright year updated to 2020
+2020-02-25 - PRI:	* Error importing file to sign with unbounded line number
+2020-02-24 - PRI:	* Error (incorrect dialog displayed) when importing Excel file with more than one sheet
+
+Tag 3.3.85
+===========
+2020-02-20 - PRI:	* Error when importing destination programs to bus with inner sign
+2020-02-17 - PRI:	* HiRes sign output port in outfile
+
+Tag 3.3.84
+===========
+2020-02-13 - PRI:	* Russian ICU600 language file not written correct in outfile
+2020-02-13 - PRI:	* Last stop not written if DisplayOnInner missing
+
+Tag 3.3.83
+===========
+2020-01-22 - PRI:	* Fixed error with a 200 stops template route
+
+Tag 3.3.82
+===========
+2020-01-15 - PRI:	* Add possibility to allways import duties, i.e. ignoring any conflicts
+
+Tag 3.3.81
+===========
+2019-12-19 - PRI:	* Add possibility to create a template route with 200 stops
+
+Tag 3.3.80
+===========
+2019-12-12 - PRI:	* Add possibility to create a template route with 200 stops
+
+Tag 3.3.79
+===========
+2019-12-08 - PRI:	* New Israel mode with specific functionality
+2019-12-08 - PRI:	* Changed name on sign positions in Brazil mode
+
+Tag 3.3.78
+===========
+2019-11-27 - PRI:	* Fixed error dialog when creating outfile
+
+Tag 3.3.77
+===========
+2019-11-26 - PRI:	* Fixed error in map tool that didn't show any map
+
+Tag 3.3.76
+===========
+2019-11-25 - PRI:	* Fixed error in map tool that didn't show any map
+
+Tag 3.3.75
+===========
+2019-11-12 - PRI:	* Fixed bug in Settings dialog when adding bitmap output
+
+Tag 3.3.74
+===========
+2019-10-31 - PRI:	* Generate bitmaps as outfile
+2019-10-15 - PRI:	* Write technical line number in trip table in outfile
+2019-10-06 - PRI:	* All settings are stored in database
+
+Tag 3.3.73
+===========
+2019-09-19 - PRI:	* New 64 high template on Multilinhas sign
+
+Tag 3.3.72
+===========
+2019-09-17 - PRI:	* New languages in control unit
+2019-09-17 - PRI:	* Write line number as string and not bytes in outfile
+2019-09-16 - PRI:	* Adding max dest code to outfile settings
+2019-09-08 - PRI:	* Edit SPN items in CAN warnings
+2019-09-08 - PRI:	* Possible to set advertisement display time
+
+Tag 3.3.71
+===========
+2019-08-27 - PRI:	* Fixed error when copy signs in bus with predefined messages
+2019-08-19 - PRI:	* Better error messages when importing CSV to routes
+
+Tag 3.3.70
+===========
+2019-06-30 - PRI:	* CAN warning messages
+2019-06-30 - PRI:	* New image 'cadeirante_13.bmp'
+
+Tag 3.3.69
+===========
+2019-06-25 - PRI:	* CAN warning messages
+2019-06-16 - PRI:	* Error if not all languages were selected during destination soundfile import
+
+Tag 3.3.68
+===========
+2019-06-13 - PRI:	* Possible to use four stops in template route
+2019-06-12 - PRI:	* Two new distance trigger settings used by template route
+2019-06-01 - PRI:	* New exchange information message and voice message tag (used by template route)
+
+Tag 3.3.67
+===========
+2019-05-29 - PRI:	* Updated brazilian font and fontmapping file 
+
+Tag 3.3.66
+===========
+2019-05-12 - PRI:	* Fixed issues when import routes from CSV file
+
+Tag 3.3.65
+===========
+2019-04-25 - PRI:	* Import routes from CSV file (BETA)
+
+Tag 3.3.64
+===========
+2019-04-07 - PRI:	* New tags in Brazil mode
+
+Tag 3.3.63
+===========
+2019-04-03 - PRI:	* Make it possible to batch create templates in template dialog
+2019-03-26 - PRI:	* Fixed error in writing graphics in HiRes sign
+
+Tag 3.3.62
+===========
+2019-03-12 - PRI:	* ICU 600 settings table
+2019-03-12 - PRI:	* Make fontmapping file selection visible for all
+
+Tag 3.3.61
+===========
+2019-01-25 - PRI:	* Fixed sorting of areas when writing plaintext in outfile
+
+Tag 3.3.60
+===========
+2019-01-24 - PRI:	* Import sound file to destination
+2019-01-23 - PRI:	* Import trips with CSV file
+
+Tag 3.3.59
+===========
+2019-01-13 - PRI:	* Make it possible to align graphic objects
+2019-01-13 - PRI:	* Update copyright to 2019
+2019-01-13 - PRI:	* Fixed error in settings dialog if no COM ports
+
+Tag 3.3.58
+===========
+2018-12-30 - PRI:	* Fixed performance issues when importing bitmap
+2018-12-30 - PRI:	* Error when importing bitmap larger than sign
+
+Tag 3.3.57
+===========
+2018-12-29 - PRI:	* New sign type HiRes
+
+Tag 3.3.56
+===========
+2018-12-09 - PRI:	* If no stop sound, then dont play pre and next sounds
+2018-12-09 - PRI:	* Fixed error in settings dialog if no COM ports
+2018-12-09 - PRI:	* Write setting Liwi in ICU 600 out file
+2018-12-09 - PRI:	* Better performance when importing large GTFS-files
+2018-11-22 - PRI:	* Use other ICU600-files for Brazil during installation
+
+Tag 3.3.55
+===========
+2018-11-22 - PRI:	* Error with conditions when writing outfile with only template route
+
+Tag 3.3.54
+===========
+2018-11-22 - PRI:	* New templates for Brazil
+
+Tag 3.3.53
+===========
+2018-11-13 - PRI:	* Add alternative text in route dialog
+
+Tag 3.3.52
+===========
+2018-10-25 - PRI:	* Use only Windows-encoding formats when writing outfile
+
+Tag 3.3.50
+===========
+2018-10-10 - PRI:	* New version of map tool (Google Street View fix)
+
+Tag 3.3.49
+===========
+2018-10-10 - PRI:	* New version of map tool
+2018-10-02 - PRI:	* Add sign width for clock message
+2018-09-19 - PRI:	* Updated brazilian font and fontmapping file
+2018-09-19 - PRI:	* Addded search and sorting functionality to database handling dialog
+
+Tag 3.3.48
+===========
+2018-09-06 - PRI:	* Added font. Fixed error in new program dialog.
+
+Tag 3.3.47
+===========
+2018-08-27 - PRI:	* Add dest codes to pgm dialog, and CSV import function. Removed function from out file dialog. (Brazil mode)
+2018-08-22 - PRI:	* Import stop locations with same stop name
+2018-08-22 - PRI:	* Add file extension to voice file when importing stops
+
+Tag 3.3.46
+===========
+2018-08-18 - PRI:	* Read alternative text when using (TD) tag (cont.)
+
+Tag 3.3.45
+===========
+2018-08-13 - PRI:	* Read alternative text when using (TD) tag
+
+Tag 3.3.44
+===========
+2018-06-30 - PRI:	* Write table with dest code number mappings in ICU400 out file
+
+Tag 3.3.43
+===========
+2018-06-25 - PRI:	* Fixed error when writing stop button sound to outfile
+
+Tag 3.3.42
+===========
+2018-06-24 - PRI:	* Handle when GTFS import has errors in stop times
+2018-06-22 - PRI:	* Fixed error when importing duties with same trip more than once
+
+Tag 3.3.41
+===========
+2018-06-12 - PRI:	* Fixed destination sound button could not be unselected
+2018-06-12 - PRI:	* Fixed error when no stop button sound is selected
+2018-06-11 - PRI:	* Make user select what type of package to import
+
+Tag 3.3.40
+===========
+2018-05-30 - PRI:	* Add a "pling"-sound when stop button pressed
+
+Tag 3.3.39
+===========
+2018-05-27 - PRI:	* New brasilian template
+2018-05-27 - PRI:	* Font file not copied correctly during installation
+
+Tag 3.3.38
+===========
+2018-05-23 - PRI:	* Write ICU text files in ANSI encoding
+2018-05-22 - PRI:	* Add destination table to ICU 600 outfile (three languages)
+
+Tag 3.3.37
+===========
+2018-04-26 - PRI:	* Write stop name table in ICU600 outfile
+
+Tag 3.3.36
+===========
+2018-04-23 - PRI:	* Fixed error with disappearing controls in stop dialog
+
+Tag 3.3.35
+===========
+2018-03-05 - PRI:	* #4769 Change information in stop sign
+
+Tag 3.3.34
+===========
+2018-02-27 - PRI:	* Fixed error when using predefined ports
+2018-02-15 - PRI:	* Fixed error with importing empty sign data
+2018-02-13 - PRI:	* Added font, bib and new templates
+2018-01-30 - PRI:	* Fixed font read error when importing Zedit file
+2018-01-30 - PRI:	* Fixed error importing graphics to sign with default white color
+2018-01-30 - PRI:	* No custom voice files was displayed for other languages than default at voice message action
+2018-01-24 - PRI:	* Add stop index to stop list in route tree in main window
+2018-01-23 - PRI:	* Fixed error when importing stops and creating route with those stops
+
+Tag 3.3.33
+===========
+2018-01-20 - PRI:	* #4761 Update copyright to 2018
+2018-01-20 - PRI:	* Updated UK default database
+2018-01-16 - PRI:	* #4721 Check not used stops, ask to delete
+2018-01-08 - PRI:	* #4708 Error in key if ø in mlk file
+
+Tag 3.3.32
+===========
+2017-12-14 - PRI:	* #4628 Import duties from CSV file
+2017-12-12 - PRI:	* Remove leading zeros from dest code when importing GTFS data
+
+Tag 3.3.31
+===========
+2017-12-07 - PRI:	* Add possibility to play sound on empty predefined messages
+2017-12-06 - PRI:	* Fixed error when deleting program from multiple buses
+2017-12-05 - PRI:	* Adding second emergency program
+2017-11-16 - PRI:	* Remove spaces from imported data
+2017-11-16 - PRI:	* Disable rotation buttons in dialog
+2017-11-15 - PRI:	* #4720 Edit multiple line number in trip dialog
+
+Tag 3.3.30
+===========
+2017-11-06 - PRI:	* Error when opening Settings dialog on some cultures
+
+Tag 3.3.29
+===========
+2017-11-02 - PRI:	* #4687 Cannot autoformat back to template settings
+2017-10-19 - PRI:	* New font Mobitec Std b 9x10 Aa1
+
+Tag 3.3.28
+===========
+2017-10-02 - PRI:	* #4595 Create route when importing stops from Excel file
+2017-09-19 - PRI:	* 2986 Possible to fix blue warning
+
+Tag 3.3.27
+===========
+2017-09-13 - PRI:	* Fixed formatting error when editing sign with several languages
+2017-09-13 - PRI:	* Make it possible to edit and save text in inner sign
+2017-09-06 - PRI:	* New version av MapTool to hide warning message
+2017-09-06 - PRI:	* Fixed error when importing GPS coordinate in GTFS
+2017-08-30 - PRI:	* Fixed error when importing programs without program number
+2017-08-30 - PRI:	* Don't validate settings if not enabled
+
+Tag 3.3.26
+===========
+2017-07-06 - PRI:	* #4512 More stop information
+2017-07-06 - PRI:	* Fixed errors when writing template route
+2017-07-06 - PRI:	* Sort templates with height and name
+2017-07-06 - PRI:	* Added templates to Brazil database
+2017-07-02 - PRI:	* Fixed error when updating route tree
+2017-07-02 - PRI:	* Updated two Std fonts
+2017-07-02 - PRI:	* Updated ICU 600 menu file
+2017-06-06 - PRI:	* #4414 Remove "," from plain texts
+2017-06-06 - PRI:	* #4428 Exception when writing outfile
+2017-06-05 - PRI:	* #4333 Possible to scroll inner signs
+2017-05-23 - PRI:	* Next stop sound tag wrong when writing default template route
+2017-05-23 - PRI:	* Some settings not written in out file when writing default template route
+2017-05-23 - PRI:	* Don't select basic menus setting by default when writing default template route
+2017-05-23 - PRI:	* Change maximum size of stop location from 10 to 50 characters
+2017-05-23 - PRI:	* Don't auto inner signs in default template route
+
+Tag 3.3.25
+===========
+2017-05-12 - PRI:	* Fixed bugs when writing sound id in out file
+
+Tag 3.3.24
+===========
+2017-05-11 - PRI:	* Fixed bugs when writing warning message table.
+2017-05-11 - PRI:	* Added choice to select sound channel for warning messages.
+
+Tag 3.3.23
+===========
+2017-05-10 - PRI:	* #4479 Warning messages with sound and beep
+2017-05-10 - PRI:	* Add sound files to default template
+2017-04-14 - PRI:	* Display error message if dest pgm in outer sign action is missing
+2017-04-10 - PRI:	* Fixed problem when writing default template in ICU600 outfile
+2017-04-09 - PRI:	* #3064 Startup slow on Windows Anniversary update
+
+Tag 3.3.22
+===========
+2017-03-24 - PRI:	* #4413 Not all voice items written in outfile
+2017-03-08 - PRI:	* #4398 New destination not used
+2017-03-06 - PRI:	* #4397 Not all sound files included in BBA-file
+2017-02-22 - PRI:	* New version of map tool 
+2017-02-22 - PRI:	* Updated copyright texts in license text
+
+Tag 3.3.21
+===========
+2017-02-12 - PRI:	* No map visible when starting map tool
+
+Tag 3.3.20
+===========
+2017-02-01 - PRI:	* #4332 Add button Autoformat program
+2017-01-25 - PRI:	* #4296 Change copyright texts to 2017
+2017-01-09 - PRI:	* New default UK database
+
+Tag 3.3.19
+===========
+2016-12-15 - PRI:	* #4557 Dest pgms imported doubled
+2016-12-15 - PRI:	* #4526 A comma is added to inner text in out file
+2016-12-15 - PRI:	* #4251 New templates for Multilinhas sign
+2016-12-15 - PRI:	* #4238 Add destinations automatically in out file
+
+Tag 3.3.18
+===========
+2016-12-07 - PRI:	* #3103 Add next stop tag to voice messages
+2016-11-29 - PRI:	* #4184 Language files not updated by installer
+2016-11-22 - PRI:	* #4194 Stop not updated correctly
+2016-11-15 - PRI:	* #4185 Outer sign not displayed correctly in route
+
+Tag 3.3.17
+===========
+2016-11-04 - PRI:	* #3102 Changed destination in route issues: add setting to use legacy functionality
+2016-11-04 - PRI:	* Updated template route in Brazilian database
+2016-10-11 - PRI:	* Fixed error when reading sign data
+2016-09-29 - PRI:	* Set max description size to 190 characters in out file
+2016-09-27 - PRI:	* #3102 Changed destination in route issues: Set dest pgm text in route
+2016-09-27 - PRI:	* #3101 Add possibility to import GTFS destinations with line break
+2016-09-27 - PRI:	* #3104 Fixed error with changed destination in route triggers
+
+Tag 3.3.16
+===========
+2016-09-20 - PRI:	* #3052 Exit arrows on inner sign
+2016-09-13 - PRI:	* #3058 New sign address logic for Brazil
+
+Tag 3.3.15
+===========
+2016-08-30 - PRI:	* #2985 Better sorting in trip list
+2016-09-01 - PRI:	* Fixed error when writing third language default text in area
+
+Tag 3.3.14
+===========
+2016-08-30 - PRI:	* #3028 Temp and clock bugs
+2016-08-23 - PRI:	* Write database name in windows title
+2016-08-23 - PRI:	* #2987 Two dest numbers possible
+2016-07-19 - PRI:	* Better error message when drivers are missing from database
+2016-07-19 - PRI:	* #2878 Add more sign positions
+
+Tag 3.3.13
+===========
+2016-07-05 - PRI:	* #2943 Slow MIE is faster if basic license
+2016-07-12 - PRI:	* #2984 Add temperature to sign
+2016-07-12 - PRI:	* Write button condition on predef message if empty sign and checked "Ignore empty sign positions in out file".
+
+Tag 3.3.12
+===========
+2016-06-07 - PRI:	* #2780 Ignore triggers in out file
+
+Tag 3.3.11
+===========
+2016-06-07 - PRI:	* Fixed error when deleting data from big databases
+
+Tag 3.3.10
+===========
+2016-05-31 - PRI:	* Fixed GTFS import error with faulty stop distances
+2016-05-17 - PRI:	* #2776 Clear database from GTFS data
+
+Tag 3.3.9
+===========
+2016-05-17 - PRI:	* Added spanish language file to installer.
+
+Tag 3.3.8
+===========
+2016-05-10 - PRI:	* #2637 GTFS - Import without ltg-fields
+2016-05-03 - PRI:	* #2779 Investigate if distances are imported in GTFS
+2016-05-03 - PRI:	* #2714 Update default route removes dest pgm
+2016-04-26 - PRI:	* #2775 Include sound files in dest pgm import/export
+2016-04-17 - PRI:	* Show warning message when Excel file cannot be read.
+2016-04-17 - PRI:	* #2630 Add distance, time and GPS coordinate to route print-to-file
+
+Tag 3.3.7
+===========
+2016-04-05 - PRI:	* #2608 Change behaviour of GTFS route import
+2016-04-05 - PRI:	* #2605 Import line number sound in GTFS
+2016-04-05 - PRI:	* Fixed problem with special characters in voice filenames in database.
+2016-03-27 - PRI:	* Destination changes are shown on inner sign in MIE.
+
+Tag 3.3.6
+===========
+2016-03-22 - PRI:	* Fixed error when writing destination on inner signs
+2016-03-20 - PRI:	* Fixed error when writing sound conditions
+2016-03-20 - PRI:	* Fixed error in outfile when trigger has both inner and outer sign display.
+2016-03-16 - PRI:	* #2605 Import line number sound in GTFS
+2016-03-14 - PRI:	* Write correct voice file in outfile if destination program is changed in route.
+2016-03-14 - PRI:	* Write correct line voice file in outfile in voice sequence.
+
+Tag 3.3.5
+===========
+2016-03-13 - PRI:	* Fixed path error when importing GTFS voice files.
+2016-03-13 - PRI:	* GTFS can import destination voice files.
+2016-03-08 - PRI:	* Fixed error when writing voice message sound files.
+2016-03-06 - PRI:	* #2558 Print route triggers to file
+2016-03-05 - PRI:	* Fixed better error message when voice file tag file is missing.
+2016-03-05 - PRI:	* Fixed that voice file tags does not need to be only uppercase.
+
+Tag 3.3.4
+===========
+2016-02-23 - PRI:	* Fixed crash error during database upgrade when pitch is missing
+2016-02-21 - PRI:	* #1629 Add Bicolor sign type
+2016-02-21 - PRI:	* Better error message when sound file problem during outfile creation.
+
+Tag 3.3.3
+===========
+2016-02-03 - PRI:	* Fixed error when writing predefined messages to out file.
+
+Tag 3.3.2
+===========
+2016-02-01 - PRI:	* #308 Update route with new stop properties
+2016-02-01 - PRI:	* Fixed error when importing GTFS data with unbounded line number
+2016-02-01 - PRI:	* Don't write display condition if not configured correctly
+2016-01-31 - PRI:	* Fixed error when pasting text into multi line signs
+2016-01-25 - PRI:	* Fixed zip read and write
+2016-01-23 - PRI:	* Updated Spanish language file
+2016-01-21 - PRI:	* Added new template to 60 height sign
+2016-01-19 - PRI:	* #2475 GTFS - Warn if missing fields in zip
+2016-01-19 - PRI:	* #2474 GTFS - Add ";" as separator
+2016-01-18 - PRI:	* Made the destination program selection dialog in route editor faster
+2015-12-19 - PRI:	* #1764 Change unbound to bound is taking too long
+2015-12-19 - PRI:	* Fixed memory problem when printing large buses.
+2015-12-18 - PRI:	* Write all trips in out file.
+2015-12-18 - PRI:	* Edited PDF file layout of sign columns.
+
+Tag 3.3.1
+===========
+2015-12-13 - PRI:	* #2439 Hide warnings in outfile
+2015-12-13 - PRI:	* #2402 Option to hide duties in GTFS import
+2015-12-02 - PRI:	* Fixed saving error when editing a stop's departure time.
+2015-12-01 - PRI:	* #1202 Checksumma OUT- och BBA-fil
+
+Tag 3.3.0
+===========
+2015-11-26 - PRI:	* Skip empty text objects when creating plain text.
+2015-11-26 - PRI:	* Add settings to ignore empty inner sign positions when creating outfile.
+2015-11-22 - PRI:	* Fixed error in outfile when writing conditions for driver announcement programs.
+2015-11-25 - PRI:	* Change behaviour of file search in new program dialog.
+
+Tag 3.2.100
+===========
+2015-11-15 - PRI:	* #1996 Print function report in pdf.
+
+Tag 3.2.99
+==========
+2015-11-14 - PRI:	* Re-factored zone handling in new program dialog.
+2015-11-14 - PRI:	* Fixed error when editing existing program.
+
+Tag 3.2.98
+==========
+2015-11-10 - PRI:	* Fixed error when writing second language driver programs.
+2015-11-01 - PRI:	* Fixed error when creating new program without voice file settings.
+
+Tag 3.2.97
+==========
+2015-10-28 - PRI:	* Fixed error when writing duty settings to ICU600 out file.
+2015-10-21 - PRI:	* #2000 Voice announcement on destination program
+2015-10-21 - PRI:	* #2027 Inner sign destination shall follow exterior sign destination
+
+Tag 3.2.96
+==========
+2015-10-19 - PRI:	* Fixed problem when importing GTSF data and distance between stops are faulty.
+2015-10-19 - PRI:	* Fixed duties starting between 24:00-24:59 when importing GTFS.
+
+Tag 3.2.95
+==========
+2015-10-13 - PRI:	* #1765 Add setting to disable/enable overide ICU602 voice volume
+2015-10-13 - PRI:	* #1766 Create setting for day/night voice volume
+2015-10-07 - PRI:	* Changes to Brazilian language texts.
+2015-10-07 - PRI:	* Adding support for distance between stops when importing GTFS file.
+2015-10-15 - PRI:	* #2028 Handle duties over multiple days
+
+Tag 3.2.94
+==========
+2015-09-30 - PRI:	* Set max dest no fields to five characters in smartblind mappings.
+2015-09-28 - PRI:	* #2025 Countdown timer.
+
+Tag 3.2.93
+==========
+2015-09-27 - PRI:	* #1999 GTFS change destination along route
+2015-09-17 - PRI:	* #1846 Not in service
+2015-09-10 - PRI:	* Changing textbox sizes in duty, trips and schedules dialogs to match database.
+2015-09-10 - PRI:	* Show clock button in Brazil mode.
+2015-09-10 - PRI:	* Updated Brazilian texts (partial).
+
+Tag 3.2.92
+==========
+2015-09-06 - PRI:	* New dialog when selecting trip in duty. Fixed sorting of trips and duties. Added schedule to duty table in out file.
+2015-09-03 - PRI:	* Removed fonts from Brazilian font list.
+2015-09-01 - PRI:	* Improved performance when moving objects.
+
+Tag 3.2.91
+==========
+2015-07-31 - PRI:	* Removed feature to delete out files containing errors.
+
+Tag 3.2.90
+==========
+2015-07-30 - PRI:	* Add check to only write byte value in button condition.
+2015-07-30 - PRI:	* GTFS-import add default route template to route.
+2015-07-28 - PRI:	* Fixed problem when adding graphical effects in font dialog.
+2015-07-26 - PRI:	* #1902 Route language resource texts.
+2015-07-26 - PRI:	* #1901 Create GTFS license.
+2015-07-11 - PRI:	* Fixed two problem when writing third language texts in out file.
+2015-07-09 - PRI:	* New font map list. Added BIB-files.
+2015-07-09 - PRI:	* Portuguese ICU600 language resource strings.
+
+Tag 3.2.89
+==========
+2015-07-07 - PRI:	* Removed property from sign configuration. Fixed font error in template.
+2015-07-06 - PRI:	* Fixed missing font map lists in for new sign types
+2015-07-06 - PRI:	* Fixed error when copying programs between buses
+2015-07-06 - PRI:	* Fixed error detecting if program needs to be saved
+
+Tag 3.2.88
+==========
+2015-06-04 - PRI:	* #1851 Add new sign type to Brazil
+2015-06-04 - PRI:	* #1630 Add MobiStop for Brasil in MIE advanced
+
+Tag 3.2.87
+==========
+2015-06-23 - MBJ:	* Improved performance of import function in "old" duty dialog. 
+
+Tag 3.2.86
+==========
+2015-06-18 - MBJ:	* Import function in "old" duty dialog. 
+
+Tag 3.2.85
+==========
+2015-06-11 - JHJ:	* Luminator bug #12903 fix - Invalid Font IDs
+
+Tag 3.2.84
+==========
+2015-06-11 - PRI:	* Addition and bug fixes to GTFS import
+
+Tag 3.2.83
+==========
+2015-06-11 - PRI:	* Addition and bug fixes to GTFS import
+
+Tag 3.2.82
+==========
+2015-06-08 - PRI:	* Addition and bug fixes to GTFS import
+
+Tag 3.2.81
+==========
+2015-06-07 - PRI:	* Addition and bug fixes to GTFS import
+2015-06-04 - PRI:	* #1727 Error when printing extra programs
+
+Tag 3.2.80
+==========
+2015-06-02 - PRI:	* Addition and bug fixes to GTFS import
+
+Tag 3.2.79
+==========
+Empty version to match branch.
+
+Tag 3.2.78
+==========
+2015-05-24 - PRI:	* Updated project's version information
+
+Tag 3.2.77
+==========
+2015-05-06 - PRI:	* #1640 Add database upgrade script to remove ZEdit descriptions
+2015-05-06 - PRI:	* #1657 New template for 60 signs
+2015-05-06 - PRI:	* #1574 Duty items got written in created order, not sorted order
+2015-05-12 - PRI:	* #1673 Cannot copy route with "Display on MobiScreen" action
+
+Tag 3.2.76
+==========
+2015-05-04 - PRI:	* #1628 Add MIE hexadecimal program number
+2015-05-04 - PRI:	* Fixed problem when editing sign property values
+2015-04-21 - PRI:	* Fixed problem with copy/move programs.
+
+Tag 3.2.75
+==========
+2015-04-12 - PRI:	* #298 Investigate how to improve performance
+2015-04-12 - PRI:	* New templates for large signs.
+2015-04-05 - PRI:	* New texts in templates installer dialog.
+2015-04-05 - PRI:	* Fixed problem in ICU600 outfile when writing settings.
+
+Tag 3.2.74
+==========
+2015-03-26 - PRI:	* Updated font mapping files with new fonts.
+2015-03-26 - PRI:	* Fixed problem when importing large GTFS files.
+
+Tag 3.2.73
+==========
+2015-03-19 - PRI:	* #871 GTFS-import
+
+Tag 3.2.72
+==========
+2015-03-05 - PRI:	* #1442 Add finnish fonts and font map file
+2015-03-05 - PRI:	* #1400 New Brazil template
+2015-03-01 - PRI:	* #1399 Add codemap settings to oufile dialog
+2015-02-25 - PRI:	* Addition to language files.
+
+Tag 3.2.71
+==========
+2015-02-19 - PRI:	* New version of map viewer tool.
+
+Tag 3.2.70
+==========
+2015-02-05 - PRI:	* #1201 Add possibility to not deactivate predefined message.
+2015-02-05 - PRI:	* Updated copyright texts to 2015.
+2015-02-08 - PRI:	* Added tempates to selected 60 high signtypes.
+
+Tag 3.2.69
+==========
+2014-12-17 - PRI:	* Fixed problem when loading sign data containing a comma character.
+
+Tag 3.2.68
+==========
+2014-12-07 - PRI:	* Added property Scroll to Ultima signs.
+2014-12-07 - PRI:	* Fixed error in templates for font Mob Brazil u 19x10 Aa1.
+2014-12-07 - PRI:	* Database upgrade to 0.4.2.
+2014-12-02 - PRI:	* Font Mob Brazil u 19x10 Aa1 added to font mapping file.
+
+Tag 3.2.67
+==========
+2014-11-27 - PRI:	* Saving Smartblind settings in database.
+2014-11-13 - PRI:	* 1012 Add possibility to add North/South/East/West when importing stops.
+
+Tag 3.2.66
+==========
+2014-11-13 - PRI:	* 487 Adding enhanced Smartblind support (Lothian).
+
+Tag 3.2.65
+==========
+Internal version used for testing.
+
+Tag 3.2.64
+==========
+2014-10-09 - PRI:	* Added two images and removed other (user graphics).
+2014-10-04 - PRI:	* Fixed bug in sign data when text contains quotation character.
+
+Tag 3.2.63
+==========
+2014-09-29 - PRI:	* 307 Export/Import database
+2014-09-29 - PRI:	* 306 Remove options in Brazil installer
+2014-09-19 - PRI:	* 719 BUG: Importing MIE2 db with spaced text.
+
+Tag 3.2.62
+==========
+2014-09-09 - PRI:	* Added Ultima sign to UK default database.
+2014-09-06 - PRI:	* Fixed bug when writing background color in outfile.
+2014-09-06 - PRI:	* Added Ultima sign to Finnish default database.
+2014-09-01 - PRI:	* Fixed display methods in Brazil default database.
+2014-09-01 - PRI:	* Add property 'Static and scrolling rotations' to new signtype.
+
+Tag 3.2.61
+==========
+2014-08-31 - PRI:	* 674 New signtype
+2014-08-31 - PRI:	* Fixed font naming error in FontMapping.xml.
+2014-08-30 - PRI:	* Brazil mode default for all countries in Central and South America.
+2014-08-30 - PRI:	* 540 Change destination on external sign
+2014-08-20 - PRI:	* Fixed bug when importing bus programs.
+2014-08-21 - PRI:	* Plain texts allow international characters.
+
+Tag 3.2.60
+==========
+2014-07-10 - PRI:	* Activation time is fetched from display method and not from default setting.
+2014-07-10 - PRI:	* Fixed ICU600 settings in BR, FI and UK default databases
+2014-07-08 - PRI:	* Fixed bugs in out file when property 'Static and scrolling rotations' wasn't set.
+2014-07-08 - PRI:	* Property 'Fixed shift time (3s)' sets shift time to 3 s regardless of configured value.
+2014-07-01 - PRI:	* When importing programs add bus name to sign configuration if same name already exist
+2014-06-23 - PRI:	* Extended TFL mapping with a route field
+
+Tag 3.2.59
+==========
+2014-06-16 - PRI:	* Fixed problem with plaintexts in ICU600
+
+Tag 3.2.58
+==========
+2014-06-05 - PRI:	* 687 TFL Step 1
+2014-06-04 - PRI:	* Automatically add property to brazilian ST and SL/SLE sign configurations.
+2014-06-04 - PRI:	* Removed unused menu options in template routes diaog.
+2014-06-04 - PRI:	* Changed destination and stop names to 100 characters to support larger names.
+
+Tag 3.2.57
+==========
+2014-05-27 - PRI:	* 683 Set font database in default databases
+2014-05-27 - PRI:	* Fixed problem when opening Brazil database
+2014-05-26 - PRI:	* Fixed crash bug in outfile when writing large graphic data
+2014-05-26 - PRI:	* Fixed crash problem when writing rotation data
+2014-05-11 - PRI:	* 660 Don't allow text to be spread in line number area when program is unbounded
+2014-04-14 - PRI:	* 652 Control unit default setting
+2014-04-14 - PRI:	* Fixed color converter problem in FF-formatter.
+
+Tag 3.2.56
+==========
+2014-04-07 - PRI:	* Fixed bug when writing multiple rows areas with adjustable size (e.g. line number area)
+
+Tag 3.2.55
+==========
+2014-04-01 - PRI:	* New font mapping list in Brazilian database
+2014-04-01 - PRI:	* New behaviour of out file dialog in Brazil mode
+
+Tag 3.2.54
+==========
+2014-03-25 - PRI:	* Extra text in bus simulator hidden in Brazil mode
+2014-03-25 - PRI:	* Suggest sign address in Brazil mode
+2014-03-25 - PRI:	* Don't display mode selection dialog during installation in Brazil mode
+
+Tag 3.2.53
+==========
+2014-03-06 - PRI:	* Sign zoom did not work from menu
+2014-03-06 - PRI:	* Behaviour of font dialog changed in BR mode
+2014-03-06 - PRI:	* Added new sign property and removed multiple error messages from outfile generation
+2014-03-06 - PRI:	* Texts updated
+2014-03-06 - PRI:	* Some menu bar icons hidden in BR mode
+2014-03-06 - PRI:	* Desktop icon created during installation
+2014-03-06 - PRI:	* Fixed problem with main window proportions
+2014-03-06 - PRI:	* Not possible to edit sign name in BR mode
+2014-03-06 - PRI:	* Removed checkbox from serial upload dialog
+2014-03-14 - PRI:	* 628 Add mode to display Area mask functionality
+2014-03-14 - PRI:	* Fixed problem with starting second MIE
+2014-03-14 - PRI:	* Add properties for specific templates in Brazil mode
+
+Tag 3.2.52
+==========
+2014-03-05 - PRI:	* 618 Zone functionality
+2014-03-05 - PRI:	* Fixed problem with triggers of first stop when adding stops to route.
+
+Tag 3.2.51
+==========
+2014-02-18 - PRI:	* 553 Sort route list
+2014-02-18 - PRI:	* 554 Print route
+2014-02-18 - PRI:	* 557 India - driver/conductor functionality
+2014-02-18 - PRI:	* 581 Remove "Suggest address" button in Brazilian mode
+
+Tag 3.2.50
+==========
+2014-02-10 - PRI:	* Fixed problem with outfile writing in debug mode
+
+Tag 3.2.49
+==========
+2014-01-03 - PRI:	* 593 Function to split a text block
+
+Tag 3.2.48
+==========
+2014-01-03 - PRI:	* Updated copyright message. 
+2014-01-03 - PRI:	* Final Transitio fixes.
+2014-01-03 - PRI:	* Added Polish to ICU language settings.
+
+Tag 3.2.47
+==========
+2013-12-04 - PRI:	* 537 Transitio
+2013-12-04 - PRI:	* 568 Remove MIE file association
+2013-12-04 - PRI:	* New ICU600 menues and ICU fonts
+2013-12-04 - PRI:	* 555 Plain text for ICU600 form both dest and via template
+2013-12-04 - PRI:	* Fixed problem with device fonts in font dialog
+
+Tag 3.2.46
+==========
+2013-11-03 - PRI:	* 539 Århus depot coordinates
+
+Tag 3.2.45
+==========
+2013-10-24 - PRI:	* Outfile bug
+
+Tag 3.2.44
+==========
+2013-10-22 - PRI:	* Outfile bug
+2013-10-22 - PRI:	* Replace font library
+2013-10-22 - PRI:	* MIE/Map tool: Bug, does not handle west coordinates
+
+Tag 3.2.43
+==========
+2013-07-15 - MBJ:	* Operator renamed to Company (Online settings)
+2013-07-15 - MBJ:	* Added settings for door signal port and stop button port.
+2013-06-24 - MBJ:	* Fixed bug where import failed due to unknown trigger condition parameters.
+2013-06-18 - MBJ:	* Added stop button condition
+2013-06-14 - CBL:	* Added template route in ICU600 outfile
+2013-06-14 - CBL:	* Added External sound button in ICU600 outfile
+
+Tag 3.2.42
+==========
+2013-04-23 - CBL:	* Fixed small bug that converted background color to graphics object in outfile
+2013-04-23 - CBL:	* Changed the direction condition in outfile, "A0" -> "A."
+2013-04-10 - CBL:	* Small fix in mie2 import related to Locale
+
+Tag 3.2.41
+==========
+2013-04-09 - MBJ:	* Map tool now handles more than 10 stops in a route.
+
+2013-04-07 - CBL:	* Added setting for font mapping file and possibility to chose a different one.
+2013-04-07 - CBL:	* Added FontMapping_fi-FI.xml used with Finnish fonts (and Latvian etc)
+2013-04-03 - CBL:	* Fixed bug with Non-unicode characters in description strings in ICU600 outfile
+
+Tag 3.2.40
+==========
+2013-04-02 - MBJ:	* Fixed win8 bug in MapTool
+2013-03-30 - CBL:	* Fixed some wordings in the database form. ServerType -> Server
+2013-03-30 - CBL:	* Added some better error handling in the "Import coordinate from GPS"2 function
+2013-03-19 - CBL:	* Fixed vertical scroll with line nrs (and other texts)
+
+Tag 3.2.39
+==========
+2013-03-06 - CBL:	* Added Gps tolerance on individual stops
+2013-03-06 - CBL:	* Changed stop dialog so it now uses MobitecMapTool
+2013-03-06 - CBL:	* Added new triggerconditiontype, direction, it now uses MobitecMapTool aswell
+2013-03-14 - CBL:	* The settings value of "Dpsa" in Icu600 outfile will now be the innersign address instead of a hard-coded 3.
+2013-03-14 - CBL:	* Added Control unit display sign setting for ICU600, added it in outfile as well. "Dbsa" in data_items.txt
+2013-03-08 - CBL:	* Fixed a bug where default external sounds were not added. (destination sounds)
+
+Tag 3.2.38
+==========
+2013-02-26 - CBL:	* Some small fixes to the licence handling
+2013-02-12 - CBL:	* Fixed a bug that caused continous autoformat to malfunction. It had to do with the adding and removing of spread in text. Could be good to test this thoroughly
+2013-02-11 - CBL:	* Added 2 new fonts, mobitec std 0 and mobitec std 9, also added them in FontMapping.xml.
+2013-02-11 - CBL:	* Added a warning in ICU400 outfile creation for pgm numbers with more than 4 digits.
+2013-01-09 - CBL:	* Added a small help text in License dialog in Brazil mode
+2012-11-16 - CBL:	* Added new licence system and keys. A key can now have features, e.g. Greyscale.
+2012-10-19 - CBL:	* Added video support
+2012-08-29 - CBL:	* Added greyscale (Yippi!)
+
+2013-01-21 - CBL:	* Fixed a bug that crashed MapTool.
+2013-01-22 - CBL:	* Added new acionType: DisplayOnOuterSign
+2013-01-22 - CBL:	* Added new acionParametertype: DisplayDestPgmOnOuterSign
+2013-01-22 - CBL:	* Added new conditionType: Velocity
+2013-01-22 - CBL:	* Added new conditionParamterType: VelocityGreaterThan
+2013-01-22 - CBL:	* Added new conditionParamterType: VelocityLessThan
+
+2013-01-08 - CBL:	* Added settings in ICU600 outfile for feedback to mobitec access web.
+
+Tag 3.2.37
+==========
+2013-01-10 - CBL:	* Added possiblility to get GPS coordinates from serial port in Stop dialog
+2013-01-09 - CBL:	* Added some templates in the brazillian database
+2012-12-06 - CBL:	* Fixed a bug where outfile creation did not work in windows 8
+2012-12-06 - CBL:	* Added a license dialog at startup for Brazil mode
+2012-12-03 - CBL:	* Fixed a bug with copied programs and template selection
+2012-11-22 - CBL:	* Fixed a bug where emergency was not possible to turn off
+2012-11-20 - MBJ:	* New Map tool with pause that still outputs GPS coordinates.
+
+Tag 3.2.36
+==========
+2012-10-10 - CBL:	* Added 3 new scroll directions, mostly for Mexico
+
+Tag 3.2.35
+==========
+2012-10-19 - CBL:	* Small GUI fix for emergency settings
+
+Tag 3.2.34
+==========
+2012-10-18 - CBL:	* Added support for Emergency programs
+
+Tag 3.2.33
+==========
+2012-10-08 - CBL:	* Added graphics and background graphics in XML export/import
+2012-09-21 - CBL:	* Added a spanish language file
+2012-09-21 - CBL:	* Disabled some controls in newPgm form in brazil mode
+2012-09-21 - CBL:	* User now has to choose filename in ICU400OutFile in brazil mode
+2012-09-21 - CBL:	* Hid some print functions and zedit import functions in brazil mode
+2012-09-21 - CBL:	* Added some sign address suggestions for Brazil
+2012-09-17 - CBL:	* Hid some controls in the ICU400 outfile dialog for Brazil, and changed so that the full filename is now visible
+2012-09-17 - CBL:	* Added 4 tags for Brazil mode (2 already existed so I just created the icon)
+
+Tag 3.2.32
+==========
+2012-10-04 - CBL:	* Implemented MobiScreen action triggers in MIE. New action type: Display on MobiScreen, use just like DisplayonInnerSign. Action items can be imported from existing MCE project
+2012-09-26 - CBL:	* Fixed a bug with spacing on inner signs, reported by DeLijn
+
+Tag 3.2.31
+==========
+2012-09-14 - CBL:	* Added Eastern europe fonts for the ICU600
+2012-09-14 - CBL:	* Added character encodings in ICU600 plaintexts for Hungarian etc...
+2012-09-14 - CBL:	* Added the possibility to add additional files to a font package, just add them in the zip and add the in configuration.xml under <extrafiles><extrafile>...
+2012-09-07 - CBL:	* MIE version now written correctly in the ICU600 outfile and in xml files
+2012-09-05 - CBL:	* Fixed a bug with ethernet settings when "Ethc" was present in the data items file.
+2012-09-05 - CBL:	* Updated the download link for Crystal reports
+
+Tag 3.2.30
+==========
+2012-08-23 - CBL:	* Edited all the hibernate mapping files so that database columns and table now are in upper-case as it is in the database. A comparison without match-case is always done but does not work with turkish local settings.
+
+Tag 3.2.29
+==========
+2012-08-16 - CBL:	* Enabled the use of Alt Gr (i.e. Ctrl + Alt) in sign component
+2012-08-16 - CBL:	* Fixed small bug with time as default message on 2 inner signs
+
+Tag 3.2.28
+==========
+2012-08-09 - CBL:	* Time messages now also written to second inner sign.
+2012-08-09 - CBL:	* Time as default message now works for all inner sign sizes (but might not look very nice)
+2012-08-09 - CBL:	* Added settings for ethernet support in ICU600
+2012-07-30 - CBL:	* small fix regarding change log messages
+
+Tag 3.2.27 
+==========
+2012-06-21 - CBL:	* Fixed a bug in icu600 outfile with time messages and voice messages in combination
+2012-06-21 - CBL:	* Fixed a bug with background for old color signs.
+
+Tag 3.2.26 
+==========
+2012-06-18 - CBL:	* added turkish fonts in FontMapping.xml
+2012-06-18 - CBL:	* added a icu600/RS_Db_menus_ICU600_Duty.txt, menu file with duties option
+2012-06-12 - CBL:	* Added a new Brazillian bitmap
+2012-06-01 - CBL:	* Small fix regarding sorting of line nrs without digits.
+
+Tag 3.2.25
+==========
+2012-05-25 - CBL:	* Enabled duties in MieMode = Standard
+
+Tag 3.2.24
+==========
+2012-04-25 - CBL:	* Fixed 2 memory problems in USPManager and USPDLL
+2012-04-15 - CBL:	* fixed stopimport so GPS format DD MM SS.SSSS works
+
+Tag 3.2.23
+==========
+2012-04-08 - CBL:	* spacing will now affect generated inner sign pgms if the displaymethod is static or blinking
+2012-04-11 - CBL:	* fixed a bug in stops... adding several stops with the same soundfile resulted in problems
+2012-04-10 - CBL:	* fixed a bug in outfile dialog... routes with the same destination program resulted in errors
+2012-04-09 - CBL:	* fixed a bug with tachometer in ICU600 OutFile
+2012-04-02 - CBL:	* Hard-coded scroll speed of blinking text in outfile to 2 seconds
+
+Tag 3.2.22
+==========
+2012-03-30 - CBL:	* Added a new fontmapping for Brazil
+
+Tag 3.2.21
+==========
+2012-03-29 - CBL:	* Changed default language for ICU400 outfile to portuguese in Brazillian mode.
+
+Tag 3.2.20
+==========
+2012-03-13 - CBL:	* Misc bug fixes related to door condition, inner signs, and MIE 2 import
+2012-03-13 - CBL:	* Changed the icons for Go/Regress
+2012-03-13 - CBL:	* Fixed a bug in MIE2 import with db version 1.7.14, the tables dutyitem and dutylist do not exist in 1.7.14. Added a check for that.
+
+Tag 3.2.19
+==========
+2012-03-06 - CBL:	* Added new Door condition: DoorClosing
+2012-03-05 - CBL:	* Brazil mode, mixed scroll feature enabled in the brazillian database by default
+
+Tag 3.2.18
+==========
+2012-02-29 - CBL:	* Brazil mode, Vertical scroll now works in old brazillian signs
+
+Tag 3.2.17
+==========
+2012-02-19 - CBL:	* Fixed bug id 461
+2012-02-16 - CBL:	* Created one control for sound selection, used in stops, destinations and custom voicefile selections
+2012-02-16 - CBL:	* Fixed a bug where an inner display message action was needed for every at-stop trigger. Now it's not needed. NEEDS SOME TESTING of ICU600 outfile with triggers and stops
+2012-02-09 - CBL:	* Added Go/Regress destination functionality in Brazillian mode.
+
+Tag 3.2.16
+==========
+2012-02-06 - CBL:	* Added sorting in Smartblindmapping dialog
+2012-01-28 - CBL:	* Made the properties DefaultDisplayMethod, SecondDisplayMethod, and ThirdDisplayMethod on TriggerActionMapping obselete. Instead we use TriggerActionMapping.DisplayMessage.DefaultDisplayMethod etc.
+2012-01-31 - CBL: 	* Changed the default value of DefaultStopMessageActivationTime to 30 seconds, up from 10
+2012-01-31 - CBL: 	* The mie2 import no longer imports generated stop messages on the inner signs. (They were added as normal dest rotations before).
+2012-01-31 - CBL: 	* Fixed a bug with "force use of graphics" where parts of texts were overwritten.
+2012-02-03 - MBJ	* New Map Tool with another fix for misplaced trigger points and also warning for triggers not placed between current and next/previous stop.
+2012-02-02 - MBJ	* New Map Tool with fix for misplaced trigger points.
+2012-01-31 - LAR	* Predefined messages hidden in basic mode
+2012-01-31 - LAR	* Driver sign address suggested to 8 in Brazilian mode
+2012-01-20 - LAR	* Added Mob Brazil 0 font, fixed font list for ST/SLE signs
+2012-01-24 - MBJ	* Fixed so that stop name includes stop point when creating output data to the map tool.
+2012-01-24 - MBJ	* Fixed problem where incorrect display method for a trigger actions sometimes was sent to the map tool
+2012-01-25 - LAR	* Fixed startup not thread-safe language resource loading
+
+Tag 3.2.15
+==========
+2012-01-10 - MBJ	* New Map tool that fixes the bug when that occurres when same stop appears several times in the route and bug with the invalid COM-settings  (bus not moving on map).
+2012-01-17 - CBL:	* Added new options for autoformatting line no areas
+2012-01-17 - CBL:	* Improved resolution on GPS coordinates
+2012-01-17 - CBL:	* Added new GPS formats
+2012-01-17 - CBL:	* Fixed an issue with MIE 2 import related to double rows
+
+Tag 3.2.14
+==========
+2012-01-10 - MBJ	* Mobitec Map Tool output/link added (advanced).
+			* From now on the GPS tolerance in the settings menu affects the out file (Option->Settings, tab Route->Common settings). The ICU600 configuration dialog will not have any impact on this setting anymore.
+			* From now on the speaker volume in the settings menu affects the out file (Option->Settings, tab Route->Voice announcement). The ICU600 configuration dialog will not have any impact on this setting anymore.
+			* New launch icon.
+
+Tag 3.2.13
+=========
+2012-01-09 - CBL:	* Added a check to see if MIE was updated without a restart of the system, if that is the case MIE wont start.
+2012-01-09 - CBL:	* Changed the way settings are saved, it now hopefully quicker.
+2012-01-05 - CBL:	* Changed the default languages for the Brazil, US and UK databases.
+
+Tag 3.2.12
+=========
+=========
+2012-01-03 - CBL:	* Added Duties to the MIE 2 import, if duties are imported the ICU600 menu file will be RS_Db_menus_ICU600_Old_Duty.txt.
+2011-12-21 - CBL:	* Small fix in xml import, also changed the Brazillian database. (SignTypeBase default->MobiLED)
+2011-12-16 - CBL:	* Added pgmtype predefined message
+2011-12-16 - CBL:	* Added sounds to advertisements and predefined messages, we need also an upgrade to the ICU600 for the advertisement sounds to work
+2011-12-16 - CBL:	* Added a language code MIBF for the ICU400 outfile, needed for the 402 Brazil
+
+Tag 3.2.11
+=========
+2011-12-06 - CBL:	* Fixed a bug in SerialUpload.cs
+2011-12-02 - CBL:	* Added more columns to user graphic tab in Graphics library dialog, accroding to Brazillian needs
+2011-12-02 - CBL:	* Default start template for a new sign in bus is now Destination in brazil mode.
+2011-12-02 - CBL:	* Added a new Brazillian font.
+2011-12-02 - CBL:	* Plaintext in pgmframe now shows all rotations separeted by a '|' character
+2011-12-02 - CBL:	* Lot of name changes in the brazil database, sign configurations, sign configuration groups, etc
+2011-12-02 - CBL:	* Clock tag changed from 00:00 to (DT)
+
+Tag 3.2.10
+=========
+2011-11-25 - CBL:	* Moved most of the settings to the database.
+
+Tag 3.2.9
+=========
+2011-11-24 - CBL:	* Updated Brazilian fonts and bib-file
+
+Tag 3.2.8
+=========
+2011-10-13 - CBL:	* Separated the settings for the text file paths for MobiCompact and standard ICU600.
+2011-10-24 - CBL:	* Added duties
+2011-10-31 - CBL:	* Added new graphic mode function - "Select all graphic objects"
+2011-11-04 - CBL:	* Fixed a bug related to scrolling on older signs, the scrolling area would become smaller than what was intended
+2011-11-07 - CBL:	* Updated Brazilian fonts, fontmappings and bib-file
+2011-11-08 - CBL:	* Added some starting signs for the UK database
+2011-11-08 - CBL:	* Fixed a bug where rotations with only background image would be ignored
+
+Tag 3.2.7
+=========
+2011-09-30 - CBL:	* Fixed a bug where Standard graphics import did not affect PlainTextString, which sometimes resulted in empty outfile
+2011-09-30 - CBL:	* Small update to Binotype fonts and fontmappings
+2011-09-30 - CBL:	* added a warning in outfile if rotation was skipped due to no data
+2011-09-30 - CBL:	* Tried to adjust the position of imported graphics in zedit import
+2011-09-10 - CBL:	* Added Advertisement
+2011-09-10 - CBL:	* To be able to use advertisement, the database was upgraded. Now 'Pgm' has a 'Zone'.
+2011-09-11 - CBL:	* Fixed bug in the where it was impossible to pick the option for UK templates at installation.
+2011-09-12 - CBL:	* Added a setting: 'AllowStaticAndScrollingRotationsMixed', for the usage if dummy scroll, disabled by default.
+2011-09-12 - CBL:	* New fonts for the ICU600, Æ and æ is now available.
+2011-09-13 - CBL:	* Fixed a bug where the outfile generation would crash if the database had been corrupted. The corruption can sometimes happen if you change position on signs (not reproducable by me though).
+2011-09-13 - CBL:	* Fixed a bug related to the mixing of long bound line nrs and shorter unbound line nrs.
+
+Tag 3.2.6
+=========
+2011-09-14 - MBJ:	* New color picker icon with preview. 
+			* New icons (the large icons in the top right) in the wizards (text import, Excel import, Zedit import, out file and bus). 
+			* New icons in the bus tree.
+2011-09-20 - MBJ:	* New icons for the route planning tool.
+			* Changed so that distance and gps conditions cannot be added or removed on neither the route nor on the different templates (they are always added on the before, at and after triggers and should never be removed).
+			* Enabled the line number Allowed characters input box in the out file wizard.
+			* New program icon.
+			* Added button and icon for brazilian parking box.
+2011-09-20 - CBL:	* Added more brazilian translations
+2011-09-20 - CBL:	* Added Line number sequence option for ICU400 outfile.
+2011-09-21 - CBL:	* Fixed bug id 417, autoformatting with items from graphic library
+2011-09-21 - CBL:	* Fixed bug id 430, first row of excel-import was always skipped
+2011-09-29 - CBL:	* Added the possibility to include MieMode in the "settings export"
+2011-09-29 - CBL:	* Added a new MieMode, Binotype. Has different Zedit fontmappings.
+
+
+Tag 3.2.5
+=========
+2011-08-29 - CBL:	* Fixed some issues with the dummy scroll. Should now work every time.
+2011-08-31 - CBL:	* Added the possibility in the MIE2 Import to choose display method for each imported display message.
+2011-09-05 - CBL:	* Different shift times for first and last rotations should now work again for signs without scrolling (i.e flipdot).
+
+
+Tag 3.2.4
+=========
+2011-08-24 - CBL:	* Changed the way background is written to outfile, it was once per text element, now once per rotation area.
+
+Tag 3.2.3
+=========
+2011-08-18 - MBJ:	* Fixed bug 411: Draw tools etc are enabled without any sign active
+			* New background color selector. Please test color sign outfile (create a gradient background, change to solid background and create out file.
+			* Minor fixes to toolstrips so they are enabled/disabled correctly when selecting/deselecting signs etc.
+			* Fixed language problems for menu items Data->Destinations/Stops/Messages.
+			* Added erase tool as separate tool. Does same as right click with pen tool.
+2011-08-18 - CBL:	* Fixed bug in outfile dialog for ICU600 where Select all programs would not work with basic license.
+2011-09-19 - CBL:	* Fixed a bug with not being able to delete trigger actions from template routes
+2011-08-19 - CBL:	* Fixed a bug where an error would be produced if you deleted a display method currently being used in a message.
+
+Tag 3.2.2
+=========
+2011-08-11 - MBJ:	* Text tool is always selected when a new program is added. Text tool is also selected when mask is hidden.
+2011-08-11 - MBJ:	* Fixes bug 346: Mask pen is enabled/disabled when mask is shown/hidden. They can not be used when mask is not visible.
+2011-08-11 - MBJ:	* New icon for mask color selector.
+2011-08-11 - MBJ:	* Fixed problem with lost route toolbar.
+2011-08-11 - CBL:	* XML import now possible on more than one file at the time.
+2011-08-12 - CBL:	* Removed the possibility to select "time as default message" when there is no inner sign.
+			Also fixed the bug where MIE would crash when it was selected without an inner sign being available	
+
+Tag 3.2.1
+=========
+2011-06-16 - CBL:	* Fixed a bug related to spreading of text and autoformatting.
+2011-06-16 - CBL:	* Added a warning in the outfile generation whenever a text element 
+			was placed too far to the left or top (and therefore moved) for the sign to place it there.
+2011-06-16 - CBL:	* Added some more info to the "remove rotation dialog"
+2011-06-17 - CBL:	* Added a setting for maximum scroll width allowed in the outfile
+
+Tag 3.2.0
+=========
+2011-06-01 - CBL:	* Fixed bug id 406, Extra text pgms couldn't have the same number as a dest pgm
+2011-06-01 - CBL:	* Fixed bug id 408, Enter as carriage return didn't work on (for example) 16 high signs when texts had no descenders
+2011-06-08 - CBL:	* Fixed bug id 405, special characters in Zedit import
+2011-06-09 - CBL:	* Fixed bug id 410, long line nrs caused problems
+2011-06-10 - CBL:	* Fixed bug id 409, mixed scrolling graphics and text now work, but not for all signs =(
+2011-06-10 - CBL:	* Also fixed an old bug were scrolling texts would connect with right line no area
+2011-06-14 - CBL:	* Fixed various bugs from the week's testing
+2011-06-14 - MBJ: 	* New icons for most of the buttons. 
+2011-06-14 - MBJ: 	* Automatic mode selection (text, graphic and mask).
+
+Tag 3.1.22
+==========
+2010-05-31 - MBJ:	* Fixed bug 407: Returns to Windows default language after font change.  
+2011-05-31 - CBL:	* Added a dummy scroll function to the outfile to work around the limitations in shift times in the control unit 
+
+Tag 3.1.21
+==========
+2011-05-05 - CBL:	* Fixed a bug in the ICU400 outfile where a scrolling sign position that was also a display sign would not be added to the outfile.
+2011-05-05 - CBL:	* Fixed (hopefully) the "MIE starts minimized" bug.
+2011-05-09 - MBJ:	* IME support in sign control added.
+2011-05-11 - CBL: 	* Fixed bug id 403
+2011-05-11 - CBL: 	* Changed RouteMapping.hbm.xml according to Atlanticos need
+2011-05-12 - CBL:	* Fixed bug id 396
+2011-05-12 - CBL:	* Fixed bug id 385
+2011-05-12 - CBL:	* Fixed bug id 383
+2011-05-13 - CBL:	* Fixed some issues with pre next and end announcements, they now work for all three languages.
+2011-05-16 - CBL:	* Fixed bug id 390
+2011-05-16 - CBL:	* Fixed bug id 382
+2011-05-17 - MBJ:	* MIE2 DB import: Lowest supported db version is now 1.7.14 (previously 1.7.15).
+2011-05-17 - CBL:	* Small database updates, added scroll property to MobiSTOP and changed all activation times to 30 (from 0 which made the ICU600 crash).
+
+Tag 3.1.20
+==========
+2011-03-18 - CBL:	* Various bug fixes regarding voice announcements and inner display messages
+2011-03-25 - CBL:	* Fixed scrolling and multiple languages in inner signs.
+2011-03-28 - CBL: 	* Added warnings in the stop and destination dialogs if the selected voice folder does not exist or contains no mp3-files. Also added possibility to change voice folder from the stop form and destination form.
+2011-03-30 - CBL:	* Added "stop location" to stops import.
+2011-04-01 - MBJ:	* Stop triggers in route are now sorted based on distance from the stop.
+2011-04-06 - MBJ:	* Fixed bug where line number and route number number in route was not updated in the route tree if it was changed.
+2011-04-07 - CBL:	* Fixed some more voice paths to the voice library folder, i.e. pre-announcment, next announcment, and end announcment.
+2011-04-08 - CBL:	* Add some error information in the zedit-import.
+			* It is no longer needed to select a new Locale on every rotationdata in the MIE2 import if the current locale is not supported.
+			* Fixed bug in ICU600 outfile related to multiple rotations with static text.
+			* No longer possible to change display method in a single trigger message. Create a new message instead.
+2011-04-19 - MBJ: 	* Dynamic captions of trigger including a distance trigger (the meters are added in paranteses behinf the actual name).
+2011-04-28 - CBL:	* Fixed custom voice announcements
+2011-04-28 - CBL:	* Fixed wayfarer support for ICU400. A duplicate row now only produces a warning instead of termination. 
+2011-04-29 - CBL:	* Fixed bug id 402, extra texts with more than one sign position.
+2011-05-02 - CBL:	* Fixed bug where Line No dest stop template would not work for inner sign messages.
+2011-05-03 - CBL:	* Fixed small bug in pgm export/import.
+2011-05-04 - CBL:	* Added new property to programs: Ignore empty sign positions in outfile.
+
+Tag 3.1.19
+==========
+2011-04-15 - CBL:	* Updated fonts for MobiCompact
+
+Tag 3.1.18
+==========
+2011-03-23 - CBL:	* MIE can now create outfiles for the MobiCompact, just make a normal icu600 outfile and check the box that says "Create MobiCompact outfile"
+			* Added Database menus settings file and control unit settings file for compact
+			* added new fonts to the folder icu600/fonts and removed old and never used ones
+			* fixed an error in FontMapping.xml (å and ä were swapped),
+
+Tag 3.1.17
+==========
+2011-02-18 - CBL:	* Fixed bugs related to outline, replaced/fixed the character "1" in Mobitec Std 8
+			* Fixed bug related to the Template group "Line-Dest-via as rotation", it now works as intended.
+2011-02-22 - CBL:	* User is now able to delete items in the autocomplete list in the fastinput control. Just hit delete!
+2011-03-01 - CBL:	* Improved the showing of Trigger messages when browsing the stops in the route.
+2011-03-04 - CBL: 	* Added a setting for Voice library folder.
+
+Tag 3.1.16
+==========
+2011-03-11 - CBL:	* Fixed some things related to update dialog
+
+Tag 3.1.15
+==========
+2011-02-21 - MBJ:	* Fixed bug 388: Greyed out toolbar icons at startup.
+			* Fixed issue with drag n drop of stop when there are no routes. Previously it look like it was possible to add stops, now the the standard symbol when drag-n-drop is not possible is shown.
+2011-03-08 - MBJ:	* Improved update dialog. Now with version history and possibility to not be reminded until next update.
+2011-03-10 - CBL:	* Fixed a bug in the ICU400 outfile where the display sign could get a 0 second shift time between rotations.
+
+Tag 3.1.14
+==========
+2011-03-10 - CBL:	* Fixed a fatal bug in version 3.1.13
+
+Tag 3.1.13
+==========
+2011-03-09 - CBL:	* Scrolling a graphics area wider than the sign width now works properly (Algeria problem). Areas with both text and graphics are still a problem.
+
+Tag 3.1.12
+==========
+2011-02-10 - MBJ:	* Outfile wizard now automatically adds destination programs needed by the selected routes.
+			* Cleaned up code in outfile wizard - Some extra testing would be nice.
+2011-02-11 - CBL:	* Added SL font and template package to the installer
+
+Tag 3.1.11
+==========
+2011-01-28 - MBJ:	* Added warning when generating out file where route line no does not match its des pgm line no.
+			* Misc bug fixes for display of dest pgm in route mode.
+			* Added forced restart when changing from a non excisting db to a correct one.
+			* Removed inner pgm type from showing in the pgm frame.
+2011-02-01 - MBJ:	* Connection between route and dest pgm are added during MIE2 DB import.			
+2011-02-01 - CBL:	* Disabled editing of inner signs
+			* Fixed bug id 387 related to smartblind mapping import.
+			* Various bug fixes
+
+Tag 3.1.10
+=========
+2011-01-14 - CBL:	* Fixed bug 381: Drag N' Drop Stop to Route. If you drag n drop a stop in the stop list (which is not blue marked) and try to drag it to the route it will take the one that was previously selected (blue marked) in the stop list.
+2011-01-18 - MBJ:	* Added info in route table description field (Destination, line, bus pgm no, route no, route id and bound/unbound mark).
+			* Fixed misc errors when changing between different route actions inner signs.	
+Tag 3.1.9
+=========
+2011-01-11 - MBJ:	* Removed the need of a dummy dest pgm for rendering inner signs in the route editor.
+			* In the route editor the sign component now shows the dest pgm that the route refers to. 
+			* Added new fi-FI language file.
+2010-12-17 - MBJ:	* Unbound destination pgms can be connected to a route.
+			* Show connected route id's in destination pgm list.
+2010-12-03 - MBJ:	* Error message if not all routes could be selected in out file generation when using quick link "Select all programs and jump to config step" shows message to user if not all routes are correct."
+2010-11-31 - PRI:	* Editable inner signs on routes.
+2010-11-30 - MBJ:	* Connect routes to a destination program by choosing it from a list.
+			* For routes: Outfile now only contains a reference to a destination program. Requires update of ICU600 firmware.
+
+Tag 3.1.8
+=========
+2010-09-14 - PRI:	* Fixed bug when adding extra texts to an ICU 600 out file.
+
+Tag 3.1.7
+========
+2010-07-07 - MBJ: 	* Full import of MIE2 DB including performance optimization.
+			* Fixed bug 380: Error during MIE2 DB import if there is no active database.
+
+Tag 3.1.6
+=========
+2010-06-?? - CBL: 	* Fixed bug 377: Inserts a new program in the program frame between 2 programs. Moves programs down if necessary.
+			* Fixed bug 378: Align via text in autoformat.  
+			* Fixed bug 119.
+			* Update to new version without uninstall the current one.	
+			* Text select in sign with shift and arrow key
+			* Click in sign with scrolled text, caret now ends up in the correct place
+
+Tag 3.1.5
+=============
+2010-06-?? MBJ:		* Outfile with autogenerated programs for routes.
+			* Update database with correct default route template.
+			* New licence system.
+
+2010-06-?? CBL:		* Update check function.
+
+
+ 
